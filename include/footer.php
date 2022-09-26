@@ -212,6 +212,12 @@
          xhr.open("POST", "ajax/login_register.php", true);
 
 
+         xhr.onprogress = function(){
+            alert("Please wait! Email is being sent !");
+
+         }
+
+
          xhr.onload = function() {
              if (this.responseText == 'inv_email') {
                  alert('error', "Invalid Email or Mobile number!!");
