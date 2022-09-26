@@ -23,8 +23,8 @@
 
 
     //SendGrid API Key
-    define('SENDGRID_API_KEY',"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");
-    define('SENDGRID_EMAIL',"bishal.thap3@gmail.com");
+    define('SENDGRID_API_KEY',"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");
+    define('SENDGRID_EMAIL',"bishal.thapa9948@gmail.com");
     define('SENDGRID_NAME',"Bishal Thapa");
 
 
